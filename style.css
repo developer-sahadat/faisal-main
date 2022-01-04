@@ -1,0 +1,167 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.personal {
+  display: flex;
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+
+}
+
+.personal-text {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.personal-text p {
+  color: gray;
+  width: 85%;
+  text-align: justify;
+}
+
+span {
+  color: orange;
+}
+
+.welcome-heding {
+  font-size: 50px;
+}
+
+.button {
+  padding: 10px 30px;
+  background-image: linear-gradient(#FF906C, #FF7254);
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+.personal-image {
+  width: 50%;
+
+}
+
+.personal-image img {
+  width: 80%;
+}
+
+.dream-section {
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(dream-bg.png);
+  background-position: right;
+  margin-bottom: 150px;
+}
+
+.dream-section-image {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.dream-section-image img {
+  width: 80%;
+}
+
+.dream-section-text {
+  width: 50%;
+  padding-right: 100px;
+
+}
+
+.dream-section-text h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+
+.dream-section-text p {
+  color: gray;
+  padding-bottom: 5px;
+
+}
+
+.experience-section {
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.experience-section {
+  margin-bottom: 100px;
+}
+
+.experience1 {
+  box-shadow: 5px 7px 40px gray;
+  margin-right: 30px;
+  width: 50%;
+  height: 80%;
+  padding-left: 25px;
+  border-radius: 10px;
+  border-left: 7px solid;
+  border-image: linear-gradient(#FF9D77, #FF6A4D);
+  border-image-slice: 5%;
+
+}
+
+.experience1 h1 {
+  font-size: 40px;
+
+}
+
+.experience1 h3 {
+  color: #FF9772;
+}
+
+.experience1 p {
+  color: gray;
+  margin-bottom: 70px;
+  text-align: justify;
+  padding-right: 5px;
+}
+
+.experience2 {
+  box-shadow: 5px 7px 40px gray;
+  margin-left: 30px;
+  width: 50%;
+  height: 80%;
+  padding-left: 25px;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, #00E2FF);
+  border-image-slice: 5%;
+  border-radius: 10px;
+}
+
+
+.experience2 h1 {
+  font-size: 40px;
+
+}
+
+.experience2 h3 {
+  color: #FF9772;
+}
+
+.experience2 p {
+  color: gray;
+  margin-bottom: 70px;
+  text-align: justify;
+  padding-right: 5px;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin: 40px 0;
+}
